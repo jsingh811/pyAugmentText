@@ -65,5 +65,5 @@ def replace_text(text, n):
     sents = sent_tokenize(text)
     new_text = ""
     for sent in sents:
-        new_text = " ".join(new_text, synonym_replacement(sent, n))
+        new_text = " ".join([new_text, synonym_replacement(sent, n)])
     return new_text
