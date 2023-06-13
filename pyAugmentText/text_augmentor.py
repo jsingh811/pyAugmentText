@@ -1,3 +1,5 @@
+import random
+
 from pyAugmentText.methods import synonyms_replacement
 from pyAugmentText.methods import back_translation
 
